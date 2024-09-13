@@ -1,0 +1,62 @@
+.progress-container {
+    position: relative;
+    width: 80%;
+    max-width: 100%;
+    margin: 50px auto;
+}
+
+.progress {
+    height: 30px; 
+}
+
+.progress-labels {
+    position: relative;
+    top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px; 
+}
+
+.label {
+    position: absolute;
+    transform: translateX(-50%);
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin: 0 80px;
+    width: 22rem !important;
+    border-radius: 50px;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.delete-button {
+    background-color: red;
+    transition: background-color 0.2s;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+    outline: none;
+}
+.delete-button:hover{
+    background-color: rgb(216, 10, 10);
+}
+
+.delete-button svg {
+    width: 40px;
+    height: 40px;
+}

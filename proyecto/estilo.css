@@ -1,0 +1,8 @@
+.container{
+    background-color: brown;
+    width: 15rem;
+    height: 20rem;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    margin-bottom: 5rem; /* Espacio entre iframes */
+}
